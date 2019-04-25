@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Configit.SnapshotTest</id>
+    <version>0.0.3</version>
+    <authors>Configit</authors>
+    <owners>Configit A/S</owners>
+    <projectUrl>https://github.com/configit/core-configurator</projectUrl>
+    <iconUrl>http://configit.github.io/core/images/vt-sdk-logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Snapshot tests definitions.</description>
+    <copyright>Configit A/S @ 2019</copyright>
+    <contentFiles>
+      <files include="any\any\SnapshotTest\**" buildAction="None" copyToOutput="true"/>
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="bin\Release\netcoreapp2.1\publish\**" target="contentFiles\any\any\SnapshotTest" />
+  </files>
+</package>
